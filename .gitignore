@@ -4,9 +4,10 @@
 .classpath
 bin
 build
-GradleFx.iml
-gradlefx.ipr
-gradlefx.iws
+*.iml
+*.ipr
+*.iws
 /target
 .orig
 /.project
+.DS_Store
