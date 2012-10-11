@@ -17,7 +17,7 @@
 
 package org.gradlefx.ide.plugins
 
-import org.gradlefx.ide.tasks.FDTProject;
+import org.gradlefx.ide.tasks.project.fdt.FDTProject;
 import org.gradlefx.plugins.AbstractGradleFxPlugin;
 
 

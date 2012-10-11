@@ -17,8 +17,8 @@
 package org.gradlefx.ide.plugins
 
 
-import org.gradlefx.ide.tasks.FlashBuilderClean;
-import org.gradlefx.ide.tasks.FlashBuilderProject;
+import org.gradlefx.ide.tasks.project.fb.FlashBuilderClean;
+import org.gradlefx.ide.tasks.project.fb.FlashBuilderProject;
 import org.gradlefx.plugins.AbstractGradleFxPlugin;
 
 

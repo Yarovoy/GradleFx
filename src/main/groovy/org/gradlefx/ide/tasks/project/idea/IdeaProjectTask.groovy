@@ -14,24 +14,26 @@
 * limitations under the License.
 */
 
-package org.gradlefx.ide.tasks
+package org.gradlefx.ide.tasks.project.idea
 
+import org.gradlefx.ide.tasks.project.AbstractIDEProject
 
-class FlexBuilderProject extends AbstractIDEProject {
-    public static final String NAME = 'flexbuilder'
-    
-    public FlexBuilderProject() {
-        super('FlexBuilder')
+class IdeaProjectTask extends AbstractIDEProject {
+
+    public static final String NAME = 'idea'
+
+    public IdeaProjectTask() {
+        super('IntelliJ IDEA')
     }
-    
+
     @Override
     protected void invalidateConventions() {
         // TODO Auto-generated method stub
     }
-    
+
     @Override
     protected void createProjectConfig() {
-        throw new Exception('TODO implement FlexBuilderProject')
+        throw new Exception('TODO implement IdeaProjectTask')
     }
 
 }

@@ -16,7 +16,7 @@
 
 package org.gradlefx.ide.plugins
 
-import org.gradlefx.ide.tasks.FlashDevelopProject;
+import org.gradlefx.ide.tasks.project.fd.FlashDevelopProject;
 import org.gradlefx.plugins.AbstractGradleFxPlugin;
 
 

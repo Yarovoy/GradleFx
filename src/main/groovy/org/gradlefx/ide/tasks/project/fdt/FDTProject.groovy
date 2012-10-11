@@ -14,14 +14,26 @@
 * limitations under the License.
 */
 
-package org.gradlefx.ide.tasks
+package org.gradlefx.ide.tasks.project.fdt
+
+import org.gradlefx.ide.tasks.project.AbstractIDEProject
 
 
-public interface ProjectTask {
+class FDTProject extends AbstractIDEProject {
+    public static final String NAME = 'fdt'
 
-    /**
-     * Generates all files that are required for this project
-     */
-    void generateProject()
+    public FDTProject() {
+        super('fdt')
+    }
+
+    @Override
+    protected void invalidateConventions() {
+        // TODO Auto-generated method stub
+    }
+
+    @Override
+    protected void createProjectConfig() {
+        throw new Exception('TODO implement FDTProject')
+    }
 
 }

@@ -14,24 +14,26 @@
 * limitations under the License.
 */
 
-package org.gradlefx.ide.tasks
+package org.gradlefx.ide.tasks.project.fb
+
+import org.gradlefx.ide.tasks.project.AbstractIDEProject
 
 
-class FDTProject extends AbstractIDEProject {
-    public static final String NAME = 'fdt'
-    
-    public FDTProject() {
-        super('fdt')
+class FlexBuilderProject extends AbstractIDEProject {
+    public static final String NAME = 'flexbuilder'
+
+    public FlexBuilderProject() {
+        super('FlexBuilder')
     }
-    
+
     @Override
     protected void invalidateConventions() {
         // TODO Auto-generated method stub
     }
-    
+
     @Override
     protected void createProjectConfig() {
-        throw new Exception('TODO implement FDTProject')
+        throw new Exception('TODO implement FlexBuilderProject')
     }
 
 }

@@ -14,24 +14,14 @@
 * limitations under the License.
 */
 
-package org.gradlefx.ide.tasks
+package org.gradlefx.ide.tasks.project
 
 
-class FlashDevelopProject extends AbstractIDEProject {
-    public static final String NAME = 'flashdevelop'
+public interface ProjectTask {
 
-    public FlashDevelopProject() {
-        super('FlashDevelop')
-    }
-    
-    @Override
-    protected void invalidateConventions() {
-        // TODO Auto-generated method stub
-    }
-    
-    @Override
-    protected void createProjectConfig() {
-        throw new Exception('TODO implement FlashDevelopProject')
-    }
-    
+    /**
+     * Generates all files that are required for this project
+     */
+    void generateProject()
+
 }

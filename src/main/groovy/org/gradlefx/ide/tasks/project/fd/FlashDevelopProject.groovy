@@ -14,14 +14,16 @@
 * limitations under the License.
 */
 
-package org.gradlefx.ide.tasks
+package org.gradlefx.ide.tasks.project.fd
 
-class IdeaProjectTask extends AbstractIDEProject {
+import org.gradlefx.ide.tasks.project.AbstractIDEProject
 
-    public static final String NAME = 'idea'
 
-    public IdeaProjectTask() {
-        super('IntelliJ IDEA')
+class FlashDevelopProject extends AbstractIDEProject {
+    public static final String NAME = 'flashdevelop'
+
+    public FlashDevelopProject() {
+        super('FlashDevelop')
     }
 
     @Override
@@ -31,7 +33,7 @@ class IdeaProjectTask extends AbstractIDEProject {
 
     @Override
     protected void createProjectConfig() {
-        throw new Exception('TODO implement IdeaProjectTask')
+        throw new Exception('TODO implement FlashDevelopProject')
     }
 
 }

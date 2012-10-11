@@ -14,7 +14,7 @@
 * limitations under the License.
 */
 
-package org.gradlefx.ide.tasks
+package org.gradlefx.ide.tasks.project
 
 
 public interface CleanTask {
