@@ -18,6 +18,7 @@ package org.gradlefx.ide.tasks.project.idea
 
 import org.gradlefx.ide.tasks.project.AbstractIDEProject
 
+@Mixin(IdeaUtil)
 class IdeaProjectTask extends AbstractIDEProject {
 
     public static final String NAME = 'idea'
