@@ -20,5 +20,6 @@ class IdeaUtil {
 
     public static final String IDEA_PROJECT_DIR = '.idea'
     public static final String MODULE_FILE_EXTENSION = '.iml'
+    public static final String OUTPUT_DIR = 'out'
 
 }
