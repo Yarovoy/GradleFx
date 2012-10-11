@@ -16,22 +16,22 @@
 
 package org.gradlefx.ide.tasks
 
-
 class IdeaProject extends AbstractIDEProject {
+
     public static final String NAME = 'idea'
 
     public IdeaProject() {
         super('IntelliJ IDEA')
     }
-    
+
     @Override
     protected void invalidateConventions() {
         // TODO Auto-generated method stub
     }
-    
+
     @Override
     protected void createProjectConfig() {
         throw new Exception('TODO implement IdeaProject')
     }
-    
+
 }
