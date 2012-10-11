@@ -16,11 +16,11 @@
 
 package org.gradlefx.ide.tasks
 
-class IdeaProject extends AbstractIDEProject {
+class IdeaProjectTask extends AbstractIDEProject {
 
     public static final String NAME = 'idea'
 
-    public IdeaProject() {
+    public IdeaProjectTask() {
         super('IntelliJ IDEA')
     }
 
@@ -31,7 +31,7 @@ class IdeaProject extends AbstractIDEProject {
 
     @Override
     protected void createProjectConfig() {
-        throw new Exception('TODO implement IdeaProject')
+        throw new Exception('TODO implement IdeaProjectTask')
     }
 
 }
